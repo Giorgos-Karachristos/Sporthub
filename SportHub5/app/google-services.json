@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987508178839",
+    "project_id": "sporthub-c57d3",
+    "storage_bucket": "sporthub-c57d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987508178839:android:b188f6d67164edb5a3ced2",
+        "android_client_info": {
+          "package_name": "com.example.sporthub5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987508178839-7nlu4v50l0c1krba3tgsn4idoj7fbm3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSMBrL79G3JyAAapYfCWOUj2AtT8vubSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987508178839-7nlu4v50l0c1krba3tgsn4idoj7fbm3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

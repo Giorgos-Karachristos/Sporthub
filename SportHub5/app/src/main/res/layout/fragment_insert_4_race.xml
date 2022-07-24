@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Insert.Fragment_Insert_4_Race">
+
+    <TextView
+        android:id="@+id/text_insert_race"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_race"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/text_insert_race_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race"
+        android:ems="10"
+        android:hint="@string/insert_race_date"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/text_insert_race_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race_date"
+        android:ems="10"
+        android:hint="@string/insert_race_city"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_insert_race_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race_city"
+        android:ems="10"
+        android:hint="@string/insert_race_country"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_insert_race_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race_country"
+        android:ems="10"
+        android:hint="@string/insert_race_sport"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_insert_player1_sport"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race_sport"
+        android:ems="10"
+        android:hint="@string/insert_player_team_1"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_insert_score1_sport"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_race_sport"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="@string/insert_score_player_team_1"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/text_insert_player2_sport"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_player1_sport"
+        android:ems="10"
+        android:hint="@string/insert_player_team_2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/text_insert_score2_sport"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_player1_sport"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="@string/insert_score_player_team_2"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_insert_race_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_insert_player2_sport"
+        android:background="@color/green"
+        android:text="@string/insert_race"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

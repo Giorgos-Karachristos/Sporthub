@@ -1,0 +1,76 @@
+<resources>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="app_name">Sport Hub</string>
+
+    <!-- Genika -->
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="queries">Queries</string>
+    <string name="home">Home</string>
+
+    <!-- Genika gia insert -->
+    <string name="insert_sport">Insert Sport</string>
+    <string name="insert_athlete">Insert Athlete</string>
+    <string name="insert_team">Insert Team</string>
+    <string name="insert_race">Insert Race</string>
+
+    <!-- Genika gia delete -->
+    <string name="delete_sport">Delete Sport</string>
+    <string name="delete_athlete">Delete Athlete</string>
+    <string name="delete_team">Delete Team</string>
+    <string name="delete_race">Delete Race</string>
+
+    <!-- Genika gia update -->
+    <string name="update_sport">Update Sport</string>
+    <string name="update_athlete">Update Athlete</string>
+    <string name="update_team">Update Team</string>
+    <string name="update_race">Update Race</string>
+
+    <!-- Genika gia insert sport -->
+    <string name="insert_sport_id">Insert Sport Id</string>
+    <string name="insert_sport_name">Insert Sport Name</string>
+    <string name="select_type">Select type:</string>
+
+    <!-- Genika gia insert athlete -->
+    <string name="insert_athlete_country">Insert Athlete Country</string>
+    <string name="insert_athlete_city">Insert Athlete City</string>
+    <string name="insert_athlete_name">Insert Athlete Name</string>
+    <string name="insert_athlete_surname">Insert Athlete Surname</string>
+    <string name="insert_athlete_year">Insert Athlete Year</string>
+    <string name="insert_athlete_code">Insert Athlete Code</string>
+
+    <!-- Genika gia insert team -->
+    <string name="insert_team_code">Insert Team Code</string>
+    <string name="insert_team_name">Insert Team Name</string>
+    <string name="insert_team_stadium">Insert Team Stadium</string>
+    <string name="insert_team_city">Insert Team City</string>
+    <string name="insert_team_country">Insert Team Country</string>
+    <string name="insert_team_year">Insert Team Year</string>
+
+
+    <string name="insert_score_player_team_1">insert score player/team 1</string>
+    <string name="insert_player_team_2">insert player/team 2</string>
+    <string name="insert_score_player_team_2">insert score player/team 2</string>
+    <string name="insert_race_date">Insert Race Date</string>
+    <string name="insert_race_city">Insert Race City</string>
+    <string name="insert_race_country">Insert Race Country</string>
+    <string name="insert_race_sport">Insert Race Sport</string>
+    <string name="insert_player_team_1">insert player/team 1</string>
+    <string name="insert_race_player_team_2">insert race player/team 2</string>
+    <string name="sport">Sport</string>
+    <string name="team">Team</string>
+    <string name="race">Race</string>
+    <string name="athlete">Athlete</string>
+
+    <string-array name="SportType">
+        <item>Ατομικό</item>
+        <item>Ομαδικό</item>
+    </string-array>
+
+    <string-array name="SportGender">
+        <item>Ανδρικο</item>
+        <item>Γυναικειο</item>
+    </string-array>
+</resources>
